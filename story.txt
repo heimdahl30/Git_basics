@@ -1,0 +1,7 @@
+In the Python ecosystem, Linting and formatting are handled by Ruff, Flake8, Black, and Mypy. 
+Ruff is 100x faster than older tools and Black is a great formatter because it reformats code to a strict standard. Testing is done with pytest, unittest, and tox. pytest is the most popular owing to its simple syntax, powerful fixtures and massive library of plugins. Building and packaging follow PEP 517/518 using pyproject.toml, with tools like build, Poetry, uv, and Twine.
+A modern all-in-one tool for dependency management and packaging. It uses a single pyproject.toml file and a poetry.lock to ensure deterministic, reproducible builds. 
+There is no dearth of options for CI/CD. They include integrated platforms, managed cloud services, and open-source solutions.Some of them are GitLab, CircleCI, AzureDevOps, AWS CodePipeline, TravisCI, Buildkite and many more.
+
+For a setup where 6 developers are working on a project that is in active development and will be released soon the ideal choice seems to be that of a cloud-based environment since the project does not seem to be very big (multiple teams are not working on it) and no special requirements have been mentioned. Self-hosted environment is difficult to set up, is very expensive and needs active maintenance all of which will prove prohibitive for a small team.
+
